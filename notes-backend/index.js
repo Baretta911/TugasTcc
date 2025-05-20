@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://be-1061342868557.us-central1.run.app",
+    origin: "https://b-01-450713.uc.r.appspot.com/",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
