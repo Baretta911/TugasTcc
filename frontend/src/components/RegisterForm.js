@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import axios from "axios";
 
-const BASE_URL = "https://be-1061342868557.us-central1.run.app";
+const BASE_URL = "https://be-baretta-1061342868557.us-central1.run.app/users";
 
 function RegisterForm(props) {
   const [username, setUsername] = useState("");
