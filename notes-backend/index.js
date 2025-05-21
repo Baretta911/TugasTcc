@@ -10,13 +10,13 @@ import notesRoutes from "./routes/notesRoutes.js";
 import userRoutes from "./routes/userRoute.js";
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT ;
 
 app.use(express.json());
 app.use(cookieParser());
 app.use(
   cors({
-    origin: "https://b-01-450713.uc.r.appspot.com/",
+    origin: "https://b-01-450713.uc.r.appspot.com",
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
